@@ -1,0 +1,3 @@
+from datetime import _time, datetime
+ano=int(input('Ano do carro? '))
+atual=datetime

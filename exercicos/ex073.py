@@ -1,0 +1,12 @@
+tmbrasilerao=('Palmeiras','Corinthians','Internacional','Atlético-MG','Fluminense','Athletico-PR','São Paulo','Santos','Flamengo','Botafogo','Bragatino','Goiás','Cuiabá','Coritiba','América-MG','Avaí','Ceará SC','Atlético-GO','Juventude','Fortaleza')
+top_5_primeiros=('Palmeiras','Corinthians','Internacional','Atlético-MG','Fluminense')
+top_4_ultimos=('Ceará Sc','Atlético-GO','Juventude','Fortaleza')
+oitava_posição='Santos'
+print('===='*38)
+print(f'Lista de times brasileiros que estão na série A: {tmbrasilerao}')
+print('===='*38)
+print(f'Os 5 primeiros são: {top_5_primeiros}')
+print('===='*38)
+print(f'Os times em ordem alfabédica: {sorted(tmbrasilerao)}')
+print('===='*38)
+print(f'Em 8° posição está: {oitava_posição} ',end='')
