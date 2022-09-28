@@ -33,3 +33,8 @@ while idade<18:
 nome=str(input('Informe o nome completo: ')).strip().upper()
 endereço=str(input('Informe seu endereço: ')).strip().upper()
 print(f'O {nome} tem {idade}  anos e mora no endereço {endereço} ')
+
+from time import sleep 
+print('Olá')
+sleep(1.5)
+print('Tchau!!')
