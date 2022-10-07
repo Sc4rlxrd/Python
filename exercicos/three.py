@@ -3,7 +3,7 @@ from math import sqrt
 print('Equação do 2º grau da forma: ax²+bx+c')
 a=int(input('Digite o valor de A: '))
 if a==0:
-    print('Se a valer 0, não é equação do segundo grau. Tchau!!')
+    print('Se A valer 0, não é equação do segundo grau. Tchau!!')
 else:
     b=int(input('Digite o valor de B: '))
     c=int(input('Digite o valor de C:'))
