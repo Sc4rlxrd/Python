@@ -1,4 +1,5 @@
 #conceitos de dicionário em python
+                    # Para colocar um dicionário em ordem basta ver esse exe: ranking=sorted(jogo.items(),key=itemgetter(1),reverse=True) 
                     # append(...[:]) não funciona para copiar um dicionário então para exercer essa função basta usar um método interno que é  .copy()
                     # Como não é possivel usar o enumerete no dicionário terá que usar o .items() para exercer essa função
                     # Para usar o print formatado é preciso colocar aspas duplas ex: print(f'O { dadoS["nome"] tem {dadoS["idade"]} anos.}')
