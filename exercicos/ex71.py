@@ -1,4 +1,7 @@
-
+print('=='*30)
+print('             BANCO SCARLXRD.IO                  ')
+print('=='*30)
+print()
 num=float(input('Digite o valor do saque?'))
 total=num
 céd=200
