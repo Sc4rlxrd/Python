@@ -1,4 +1,4 @@
-
+#UPDATE DO EXERCÍCIOS 95 EM PYTHON 
 def linha():
   print('--==--'*15)
 
@@ -56,6 +56,7 @@ def dados():
      
 print(dados())
 título('Scarlxrd')
+título('UPDATE DO EXERCÍCIOS 95 EM PYTHON ')
 
 
 
