@@ -16,6 +16,9 @@ def fatorial(n,show=False):
         f*=c
     return f
 
+def linha():
+    print('~'*30)
+
 fat=int(input('Digite um número para saber o fatorial: '))
 resposta=int(input('''Deseja ver o cálculo?
 [1] SIM
@@ -24,6 +27,15 @@ R: '''))
 if resposta == 1:
     print(fatorial(fat,True))
 if resposta ==2:
-    print(fatorial(fat,False)) 
+    print(fatorial(fat,False))
 
-#help(fatorial)
+linha()
+
+documents=int(input('''Deseja ver as docsstrings?
+[1] SIM
+[2] NÃO
+R: '''))
+if documents ==1:
+    help(fatorial)
+if documents ==2:
+    print('OK,Volte Sempre')
