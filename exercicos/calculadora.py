@@ -48,8 +48,9 @@ while True:
         para = str(input('Deseja parar?  [S/N]   ')).upper().strip()[0]
     if para in 'S':
         break
-
+print('~'*30)
 print('Volte Sempre!')
+print('~'*30)
 
 
 
